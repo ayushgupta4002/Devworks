@@ -1,8 +1,12 @@
 import React from "react";
+import { useState } from 'react';
 import { motion } from "framer-motion";
 import css from "./Portfolio.module.scss";
 import { fadeIn, staggerChildren, textVariant, textVariant2 } from "../../utils/motion";
 const Portfolio = () => {
+
+
+
   return (
     <motion.section
     variants={staggerChildren}

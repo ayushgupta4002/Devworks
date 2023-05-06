@@ -60,9 +60,7 @@ app.post("/send",(req,res) => {
                     return console.log(error);
                 }
               
-                res.send({
-                    message:"sent"
-                });
+                res.send({ message: 'Message Sent' });
                 
             });
  
