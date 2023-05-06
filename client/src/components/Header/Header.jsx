@@ -35,7 +35,7 @@ const Header = () => {
         >
           <li><a href="#experties">Services</a></li>
         
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#subscribe-btn">Contact</a></li>
           <li><a href="#people">Testimonials</a></li>
      
         </ul>

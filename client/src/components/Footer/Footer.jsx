@@ -22,13 +22,13 @@ const Footer = () => {
             amazing together.
           </span>
           <span className="primaryText">
-            Start by <a href="mailto:zainkeepscode@gmail.com">saying hi</a>
+            Start by <a href="mailto:devwork.co@gmail.com">saying hi</a>
           </span>
         </div>
 
         <div className={css.right}>
           <div className={css.info}>
-              <form className="subscribe-form comme" method='POST' action = "localhost:3000">
+              <form className="subscribe-form "  action = "">
                 <h3 id="person-name-heading">Full name</h3>
                 <input type="text" name="person-name" id="person-name" className='text-white' placeholder='Enter your full name'/>
 
@@ -38,7 +38,7 @@ const Footer = () => {
                 <h3 id="person-org-heading">Requirement</h3>
                 <textarea type="text" name="person-org" id="person-org" className='text-white' placeholder='Enter your requirement' />
 
-                <button type="submit" id='subscribe-btn'><p>SUBSCRIBE</p></button>
+                <button type="submit" id='subscribe-btn'><p className="cursor">Send</p></button>
               </form>
           </div>
         

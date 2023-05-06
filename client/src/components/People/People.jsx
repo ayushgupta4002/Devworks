@@ -22,10 +22,10 @@ const People = () => {
 
         <div className={`flexCenter ${css.heading}`}>
           <span className="primaryText">People talk about us</span>
-          <p style={{ marginTop: "2rem" }}>
-            I got a job that was in accordance with the salary and field of work
+          <p style={{ marginTop: "1rem" }}>
+            Letting the Work speak for themselves
           </p>
-          <p>The process of submitting an appilication was quite cosy</p>
+          <p></p>
         </div>
 
 

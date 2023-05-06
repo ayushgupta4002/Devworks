@@ -62,12 +62,38 @@ subscribe-form{
 #subscribe-btn{
     cursor: pointer;
     padding: 1vh;
-    background-color: #ffa600;
+    background-color: #f8f7f1;
     border-radius: 5px;
-    width: 100%;
+    width: 86%;
     /* color: whitesmoke; */
     align-self: center;
     font-size: 2vh;
     font-weight: 500;
     margin-top: 3vh;
+}
+.cursor{
+    cursor: pointer;
+}
+.text-white{
+    width: 86%;
+}
+.subscribe-form{
+    
+        
+    @media (max-width:630px)
+    {
+      margin-left:10%;
+      margin-right:10%;
+      width: 100%;
+        
+        
+   }
+   @media (max-width:340px)
+   {
+     margin-left:8%;
+     margin-right:5%;
+     width: 100%;
+       
+       
+  }
 }
