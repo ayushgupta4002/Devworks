@@ -2,6 +2,7 @@ import React from "react";
 import { footerVariants, staggerChildren } from "../../utils/motion";
 import css from "./Footer.module.scss";
 import {motion} from 'framer-motion'
+import "../Footer/footer.css"
 const Footer = () => {
   return (
     <motion.section
@@ -27,8 +28,18 @@ const Footer = () => {
 
         <div className={css.right}>
           <div className={css.info}>
-            <span className="secondaryText">Form</span>
-            <p></p>
+              <form className="subscribe-form comme" method='POST' action = "localhost:3000">
+                <h3 id="person-name-heading">Full name</h3>
+                <input type="text" name="person-name" id="person-name" className='text-white' placeholder='Enter your full name'/>
+
+                <h3 id="person-email-heading">Email</h3>
+                <input type="email" name="person-email" id="person-email" className='text-white' placeholder='Enter your email'/>
+
+                <h3 id="person-org-heading">Requirement</h3>
+                <textarea type="text" name="person-org" id="person-org" className='text-white' placeholder='Enter your requirement' />
+
+                <button type="submit" id='subscribe-btn'><p>SUBSCRIBE</p></button>
+              </form>
           </div>
         
         </div>

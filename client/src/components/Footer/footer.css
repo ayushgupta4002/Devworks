@@ -1,0 +1,73 @@
+subscribe-form{
+    display: flex;
+    /* flex-direction: column; */
+    width: 60%;
+    /* margin-top: 6vh; */
+    /* margin-bottom: 6vh; */
+    
+    @media (max-width:520px)
+    {
+        width: 70%;
+        margin-left:1.5vw;
+        margin-right:1.5w;
+        
+   }
+}
+
+#person-name-heading{
+    /* color: #FEFCFF; */
+    font-size: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#person-name{
+    background-color: transparent;
+    border: 1px gray solid;
+    padding: 1vh;
+    border-radius: 5px;
+    margin: 1vh 0vh 3vh 0vh;
+}
+
+#person-email-heading{
+    /* color: #FEFCFF; */
+    font-size: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#person-email{
+    background-color: transparent;
+    border: 1px gray solid;
+    padding: 1vh;
+    border-radius: 5px;
+    margin: 1vh 0vh 3vh 0vh;
+}
+
+#person-org-heading{
+    /* color: #FEFCFF; */
+    font-size: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#person-org{
+    background-color: transparent;
+    border: 1px gray solid;
+    padding: 1vh;
+    border-radius: 5px;
+    margin: 1vh 0vh 3vh 0vh;
+}
+
+#subscribe-btn{
+    cursor: pointer;
+    padding: 1vh;
+    background-color: #ffa600;
+    border-radius: 5px;
+    width: 100%;
+    /* color: whitesmoke; */
+    align-self: center;
+    font-size: 2vh;
+    font-weight: 500;
+    margin-top: 3vh;
+}
