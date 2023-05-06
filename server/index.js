@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors')
 var nodemailer = require('nodemailer');
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 const validator = require("validator")
 const app = express();
 require("dotenv").config();
@@ -59,11 +59,11 @@ app.post("/send",(req,res) => {
     
                     return console.log(error);
                 }
-                console.log(info);
+              
                 res.send({
                     message:"sent"
                 });
-                console.log('Message sent: %s', info.messageId);
+                
             });
  
     
@@ -84,5 +84,5 @@ app.post("/send",(req,res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`Server is running on 5000`)
+    console.log(`Server is running on ${PORT}`)
   });
