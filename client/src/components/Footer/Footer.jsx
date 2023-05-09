@@ -7,13 +7,13 @@ import axios from 'axios';
 import "../Footer/footer.css"
 const Footer = () => {
 
-  const baseurl = "http://localhost:5000/send";//baseurl for posting
+  const baseurl = "https://devworks101.vercel.app/";//baseurl for posting
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [requirement, setrequirement] = useState("");
 
   const send = () => {
-    axios.post(baseurl, {
+    axios.post(baseurl + "/send", {
       name: name,
       email: email,
       requirement: requirement
