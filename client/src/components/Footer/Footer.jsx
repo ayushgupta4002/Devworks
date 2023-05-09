@@ -7,7 +7,7 @@ import axios from 'axios';
 import "../Footer/footer.css"
 const Footer = () => {
 
-  const baseurl = "https://devworks101.vercel.app/";//baseurl for posting
+  const baseurl = "https://devworks101.vercel.app";//baseurl for posting
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [requirement, setrequirement] = useState("");
