@@ -4,7 +4,7 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Quality",
-    projects: " Committed to delivering high-quality and optimizaed projects ",
+    projects: " Committed to delivering high-quality and optimized projects ",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
